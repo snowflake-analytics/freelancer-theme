@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
+title: Snowflake Analytics
+email: contact@snowflake-analytics.com
+url: https://www.snowflake-analytics.com/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "Making the Universal Event Stream real"
+meta_author: Snowflake Analytics
 
 # Google webmaster tools
 google_verify:
@@ -31,8 +31,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Snowflake Analytics
+  location: Sydney, Australia
   social: Around the Web
   credits: Credits
 
