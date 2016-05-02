@@ -1,0 +1,9 @@
+---
+title: Mike Robins
+layout: default
+modal-id: 3
+img: mike.png
+alt: Mike Robins
+description: Mike Robins is a Data Scientist who has built a number of applications on top of Snowplow data including a recommendations system for Bauer Media. He uses Snowplow to perform ad hoc and automated reporting across businesses for departments including video, SEO, marketing and devops.
+
+---
