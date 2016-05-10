@@ -1,7 +1,7 @@
 # Site settings
 title: Snowflake Analytics
 email: contact@snowflake-analytics.com
-url: http://www.snowflake-analytics.com.s3-website-ap-southeast-2.amazonaws.com
+url: http://www.snowflake-analytics.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 skills: "Making the Universal Event Stream real"
 meta_author: Snowflake Analytics

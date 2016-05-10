@@ -24,3 +24,43 @@
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}
     {% endif %}
+
+    <!-- jQuery plugin to test when element in viewport -->
+    <script src="{{ "/js/jquery.withinviewport.js" }}"></script>
+
+<script>
+    var scrollHistory = '';
+    $(window).on('DOMContentLoaded load resize scroll', function(el) {
+        if($('#aboutHeading').is(':within-viewport') && scrollHistory !== 'aboutHeading') {
+            scrollHistory = 'aboutHeading';
+            dataLayer.push({
+                'event': 'scroll',
+                'category' : 'scroll',
+                'action' : 'in view',
+                'label' : scrollHistory
+            });
+        }
+
+        if($('#contactFormHeading').is(':within-viewport') && scrollHistory !== 'contactFormHeading') {
+            scrollHistory = 'contactFormHeading';
+            dataLayer.push({
+                'event': 'scroll',
+                'category' : 'scroll',
+                'action' : 'in view',
+                'label' : scrollHistory
+            });
+        }
+
+        if($('#portfolioHeading').is(':within-viewport') && scrollHistory !== 'portfolioHeading') {
+            scrollHistory = 'portfolioHeading';
+            dataLayer.push({
+                'event': 'scroll',
+                'category' : 'scroll',
+                'action' : 'in view',
+                'label' : scrollHistory
+            });
+        }
+
+    }); 
+
+</script>
