@@ -2,7 +2,7 @@
 title: Simon Rumble
 layout: default
 modal-id: 1
-img: simon.png
+img: simon.jpg
 alt: Simon Rumble
 description: Simon Rumble was Snowplow’s first external user in 2012 and developed a Node.js collector to extend the ecosystem the same year. He rolled Snowplow out across Bauer Media’s 120+ sites and has been instrumental in getting the platform adopted in Australia. Simon built instrumentation, data collection and analytics for IPTV services across a range of computer and embedded platforms.
 

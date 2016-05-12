@@ -2,7 +2,7 @@
 title: Narbeh Yousefian
 layout: default
 modal-id: 2
-img: narbeh.png
+img: narbeh.jpg
 alt: Narbeh Yousefian
 description: Narbeh Yousefian is a web analytics veteran with many years of experience across the media, vendor and retail sectors. He specialises in high-end analytics using statistical tools accessing data from the Snowplow unified event log. Narbeh worked on instrumentation and analytics for IPTV services in a range of devices.
 
